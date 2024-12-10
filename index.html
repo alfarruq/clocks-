@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clock</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script> <!-- Moment.js CDN -->
+</head>
+<body>
+  <div class="clock-container">
+    <div class="time-box" id="hours">
+      <span>12</span>
+      <p>Hours</p>
+    </div>
+    <span class="colon">:</span>
+    <div class="time-box" id="minutes">
+      <span>00</span>
+      <p>Minutes</p>
+    </div>
+    <span class="colon">:</span>
+    <div class="time-box" id="seconds">
+      <span>00</span>
+      <p>Seconds</p>
+    </div>
+    <div class="period" id="period">AM</div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
